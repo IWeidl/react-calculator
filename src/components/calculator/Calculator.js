@@ -49,7 +49,7 @@ class Calculator extends React.Component {
           <Form.Group>
             <Form.Row>
               <CalculatorButton
-                value="MOD"
+                value="%"
                 onClick={this.updateField.bind(this, "Mod")}
               />
               <CalculatorButton
@@ -61,7 +61,7 @@ class Calculator extends React.Component {
                 onClick={this.backspaceField.bind(this)}
               />
               <CalculatorButton
-                value="/"
+                value="&divide;"
                 onClick={this.updateField.bind(this, "/")}
               />
             </Form.Row>
@@ -79,7 +79,7 @@ class Calculator extends React.Component {
                 onClick={this.updateField.bind(this, "9")}
               />
               <CalculatorButton
-                value="X"
+                value="&times;"
                 onClick={this.updateField.bind(this, "*")}
               />
             </Form.Row>
@@ -97,7 +97,7 @@ class Calculator extends React.Component {
                 onClick={this.updateField.bind(this, "6")}
               />
               <CalculatorButton
-                value="-"
+                value="&ndash;"
                 onClick={this.updateField.bind(this, "-")}
               />
             </Form.Row>
@@ -121,7 +121,7 @@ class Calculator extends React.Component {
             </Form.Row>
             <Form.Row>
               <CalculatorButton
-                value="+-"
+                value="&plusmn;"
                 onClick={this.oppositeField.bind(this)}
               />
               <CalculatorButton
